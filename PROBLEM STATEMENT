@@ -1,0 +1,16 @@
+Create a URL shortener library (e.g., bitly). Given a long URL, your program should return a
+shortened URL. Ensure the following:
+
+a. for a long URL X, your program should always return the shortened URL x
+
+b. the short URLs your program returns, must not follow any pattern; successive calls to
+your program should return very different short URLs 
+
+c. for two different long URLs X and Y, your program should (ideally) always return two
+different shortened URLs x and y
+
+d. your program must be able to accept long URLs provided both through console as well
+as from a file of newline separated long URLs
+
+e. the program should work for input files with up to 100000 URLs without crashing
+

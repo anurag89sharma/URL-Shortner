@@ -1,0 +1,22 @@
+HOW TO RUN
+
+1. From your linux terminal go to the directory where code is present
+2. Type "python" (without quotes) and follow the next step
+3. Suppose the url you want to shorten is 
+	"www.pqrurl.com?=uasgulgasugfugdasugaugduagdugfa"
+4. Type the following command in the terminal
+	a. import problem1 as pr
+	b. ob = pr.shortner()
+	c. ob.shorten('www.pqrurl.com?=uasgulgasugfugdasugaugduagdugfa')
+
+
+SAMPLE RUN
+
+>>> import problem1 as pr
+>>> ob = pr.shortner()
+>>> ob.shorten('www.pqrurl.com?=uasgulgasugfugdasugaugduagdugfa')
+'www.pqrurl.com?=K'
+>>> ob.shorten('www.xyzsite.com?=uasgulgasugfugdasugaugduagdugfa')
+'www.xyzsite.com?=L'
+>>> 
+
